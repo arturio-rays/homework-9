@@ -24,18 +24,21 @@ h2 {
 
 .container {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
+}
+
+.blog-page {
+    background-color: #e2e7ec;
+    padding: 80px;
 }
 
 .blog-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1130px;
-    background-color: #e2e7ec;
+    max-width: 1130px;
     list-style: none;
-    padding: 80px 0;
     margin: 0 auto;
 }
 
@@ -46,7 +49,6 @@ h2 {
 
 .blog-item:first-child {
     width: 64%;
-    line-height: 36px;
 }
 
 .blog-item:nth-child(4) .post-title {
@@ -55,8 +57,8 @@ h2 {
 
 .post-link {
     display: block;
-    text-decoration: none;
     position: relative;
+    text-decoration: none;
     background-color: #fff;
     padding-bottom: 24px;   
 }
@@ -80,7 +82,6 @@ h2 {
     left: 10px;
     top: 375px; 
     width: 515px;
-    padding: 0;
 }
 
 .main-post .post-title {
