@@ -1,0 +1,11 @@
+@font-face {
+    font-family: hanskendrick;
+    src: url('../fonts/neuehanskendrick-regular-webfont.eot');
+    src: url('../fonts/neuehanskendrick-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neuehanskendrick-regular-webfont.woff2') format('woff2'),
+         url('../fonts/neuehanskendrick-regular-webfont.woff') format('woff'),
+         url('../fonts/neuehanskendrick-regular-webfont.ttf') format('truetype'),
+         url('../fonts/neuehanskendrick-regular-webfont.svg#neue_hans_kendrickregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}

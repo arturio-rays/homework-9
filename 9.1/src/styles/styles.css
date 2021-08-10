@@ -1,0 +1,98 @@
+html,
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1, 
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdde7e;
+    padding: 35px 0;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.items {
+    max-width: 30%;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    border-radius: 3px;
+    list-style: none;
+    margin: 15px;
+}
+
+.items:nth-child(2) .card-subtitle {
+    padding-top: 10px;
+}
+
+.items:nth-child(2) .card-image {
+    padding: 41px 0 31px;
+}
+
+.items:nth-child(2) .card-text {
+    padding-bottom: 18px;
+}
+
+.card-image {
+    max-width: 135px;
+    padding: 21px 0;
+    margin: 0 auto;
+}
+
+.card-subtitle {
+    display: block;
+    color: #02995b;
+    font-family: Miso;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+}
+
+.card-title {
+    color: #000;
+    font-family: Miso;
+    font-size: 56px;
+    text-align: center;
+    padding: 27px;
+}
+
+.card-text {
+    display: block;
+    color: #000;
+    font-family: Miso;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    padding: 0 66px;
+}
+
